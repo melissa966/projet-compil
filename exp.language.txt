@@ -1,0 +1,34 @@
+Program compil_22
+PDEC
+//declaration des variables 
+b:Pint;
+c:Pint;
+d:Pint;
+e:Pfloat;
+e:Pint;
+f:Pint;
+g:Pfloat;
+h:Pfloat;
+i:Pint;
+j:Pint;
+k:Pint;
+o:Pint;
+l:Pint;
+w|x|y|z:Pfloat;
+//declaration des constantes 
+@define Pint kjk=5;
+@define Pfloat fo=5.2;
+@define Pint fo=5;
+@define Pint r=457;
+@define Pfloat pi=3.14;
+PINST
+Begin
+f <-- 5/0;
+g <-- h;
+FOR ( i<-- 1) WHILE 5
+DO
+o <-- o*2;
+ENDFOR
+DO k<-- 5; IF:(j==2 & i==2) ENDIF
+DO k<-- 5; IF:(j==2) ELSE (l<-- 5;) ENDIF
+END
