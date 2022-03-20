@@ -1,11 +1,4 @@
 %{
-#include <stdio.h>
-#include<stdlib.h>
-#include <string.h>
-#include"analyse_syntaxique.tab.h"
-extern int ligne;
-extern int col;
-extern YYSTYPE yylval;
 
 %}
 
